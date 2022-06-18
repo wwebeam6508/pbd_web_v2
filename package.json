@@ -22,9 +22,11 @@
     "firebase-admin": "^10.3.0",
     "firebase-functions": "^3.21.2",
     "next": "12.1.6",
+    "next-optimized-images": "^2.6.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-firebase-hooks": "^5.0.3"
+    "react-firebase-hooks": "^5.0.3",
+    "sharp": "^0.30.6"
   },
   "devDependencies": {
     "eslint": "8.17.0",
