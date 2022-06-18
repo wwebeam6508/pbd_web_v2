@@ -20,6 +20,9 @@ export default function Home(props) {
                 <>
                     <Head>
                         <link rel="canonical" href='https://pbdsupply.com/home' />
+                        <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Pridi&display=swap');
+                        </style>
                     </Head>
                     <div className={styles.realbody} >
                         <div style={{backgroundImage: `url(${props.data.background})`, backgroundSize:'cover', backgroundRepeat:"round",width:"100%",height:"95vh"}}>
