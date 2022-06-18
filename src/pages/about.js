@@ -16,7 +16,9 @@ export default function About(props) {
                         <Head>
                             <link rel="canonical" href='https://pbdsupply.com/about' />
                             <style>
-                                @import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Pridi&display=swap');
+                                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+                                <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Pridi&display=swap" rel="stylesheet"/>
                             </style>
                         </Head>
                         <div className={styles.realbody}>
